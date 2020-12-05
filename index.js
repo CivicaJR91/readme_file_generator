@@ -5,9 +5,6 @@ const util = require ('util');
 
 const writeReadme = util.promisify(fs.writeFile);
 
-let linceseList= ["NPM", "Inquirer 5.6.2", "Node.js"];
-
-
 // QUESTIONS PROMPT TO THE USERS
 
 const promptQuestions = () => {
@@ -40,7 +37,9 @@ const promptQuestions = () => {
             type: 'checkbox',
             name: 'license',
             message: 'Which lincese are you using in this applicaion?',
-            choices:linceseList,
+            choices:["NPM", 
+                "Inquirer 5.6.2", 
+                "Node.js"]
             
             
         },
@@ -48,7 +47,7 @@ const promptQuestions = () => {
         {
             type: 'input',
             name: 'contributing',
-            message: 'Provide instructions on how contributing to this application',
+            message: 'Provide instructions on how to contributing to this application',
         },
         
         { 
@@ -84,7 +83,7 @@ const generateRM = (answers) =>
 
 `
 # My Project Name: ${answers.project}
-[INQUIRER NMP PACKAGE](https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&type=6&v=6.5.2&x2=0)
+![INQUIRER NMP PACKAGE](./image/inquirerimage.png)
 
 ## Project Description
 ${answers.description}
@@ -104,7 +103,7 @@ ${answers.installation}
 ${answers.usage}
 
 ## Lincense
-* ${answers.linceseList}
+* ${answers.license}
 
 
 ## Contributing

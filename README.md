@@ -1,5 +1,5 @@
 # readme_file_generator
-Generate a README.md file using node.js
+Generate a README file using node.js
 
 # Criteria provided by client:
 * GIVEN a command-line application that accepts user input
@@ -25,19 +25,10 @@ Generate a README.md file using node.js
 * Answer all the questions
 * README.md file will be generated
 
-# Example of the application
+# Animated GIF of the application
+![GIF](./image/GENERATE_READ_ME_FILE.gif)
 
 
 # Repository
 * Repository: https://github.com/CivicaJR91/readme_file_generator
     
-
-
-# Resources:
-* Visual Code - used to modify html and css files
-* NPM
-* Inquirer Version 6.5.2
-* Node.js
-
-
-
