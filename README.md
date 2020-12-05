@@ -26,6 +26,7 @@ Generate a README file using node.js
 * README.md file will be generated
 
 # Animated GIF of the application
+Also see the file: EXAMPLE_README.md for the example that was generated
 ![GIF](./image/GENERATE_READ_ME_FILE.gif)
 
 
