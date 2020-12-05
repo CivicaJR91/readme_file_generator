@@ -26,18 +26,18 @@ Generate a README.md file using node.js
 * README.md file will be generated
 
 # Example of the application
-* Visual Code - used to modify html and css files
-* NPM
-* Inquirer Version 6.5.2
-* Node.js
+
 
 # Repository
-    * Repository:
+* Repository: https://github.com/CivicaJR91/readme_file_generator
     
 
 
 # Resources:
-
+* Visual Code - used to modify html and css files
+* NPM
+* Inquirer Version 6.5.2
+* Node.js
 
 
 
