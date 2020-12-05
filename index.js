@@ -5,7 +5,7 @@ const util = require ('util');
 
 const writeReadme = util.promisify(fs.writeFile);
 
-let linceseList= ["NPM", "inquirer"];
+let linceseList= ["NPM", "Inquirer 5.6.2", "Node.js"];
 
 
 // QUESTIONS PROMPT TO THE USERS
@@ -90,12 +90,12 @@ const generateRM = (answers) =>
 ${answers.description}
 
 ## Table of Content
-    * [Installation](#installation) 
-    * [Usage](#Usage)
-    * [License](#License)
-    * [Contributing](#Contributing)
-    * [Tests](#Tests)
-    * [Questions](#Questions)
+* [Installation](#installation) 
+* [Usage](#Usage)
+* [License](#License)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
+* [Questions](#Questions)
     
 ## Installation
 ${answers.installation}
@@ -104,7 +104,7 @@ ${answers.installation}
 ${answers.usage}
 
 ## Lincense
-${answers.linceseList}
+* ${answers.linceseList}
 
 
 ## Contributing
